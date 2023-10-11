@@ -1,0 +1,33 @@
+/* src/App.css */
+.pagination {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.pagination li {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.pagination li:hover {
+  background-color: #ddd;
+}
+
+/* src/App.css */
+.fade-in {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
